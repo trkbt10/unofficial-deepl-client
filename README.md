@@ -12,7 +12,7 @@ $ npm install trkbt10/unofficial-deepl-client
 ## Usage
 
 ```typescript
-import * as DeepL from "trkbt10/unofficial-deepl-client";
+import * as DeepL from "unofficial-deepl-client";
 const token = process.env.DEEPL_AUTH_KEY ?? "";
 const deepL = new DeepL.WebClient(token);
 
