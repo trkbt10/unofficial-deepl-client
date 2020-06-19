@@ -1,0 +1,29 @@
+{
+  "name": "unofficial-deepl-client",
+  "version": "0.0.1",
+  "description": "unofficial DeepL API wrapper",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "node -r ts-node/register -r dotenv/config node_modules/.bin/jasmine"
+  },
+  "keywords": [],
+  "author": "trkbt10",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "form-data": "^3.0.0",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/form-data": "^2.5.0",
+    "@types/jasmine": "^3.5.10",
+    "@types/node": "^14.0.13",
+    "@types/node-fetch": "^2.5.7",
+    "dotenv": "^8.2.0",
+    "jasmine": "^3.5.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
